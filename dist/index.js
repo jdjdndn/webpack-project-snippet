@@ -6,7 +6,7 @@
   const path = require("path");
   const fs = require('fs');
   const { getRealResource, getChooseList } = require('../utils/index');
-  const PLUGIN_NAME = "ProjectSniappet";
+  const PLUGIN_NAME = "WebpackProjectSniappet";
   const JAVASCRIPT_MODULE_TYPE_AUTO = "javascript/auto";
   const JAVASCRIPT_MODULE_TYPE_DYNAMIC = "javascript/dynamic";
   const JAVASCRIPT_MODULE_TYPE_ESM = "javascript/esm";
@@ -15,7 +15,7 @@
   const EXPORT_SINGLE_NAME = "export single name"; // eg: export const a
   const EXPORT_SINGLE_LIST = 'export single name list'; // eg: export const name; export const age => export default {name,age}
 
-  class ProjectSniappet {
+  class WebpackProjectSniappet {
     /**
      * Apply the plugin
      * @param {Compiler} compiler the compiler instance
@@ -271,6 +271,6 @@
     }
   }
 
-  module.exports = ProjectSniappet;
+  module.exports = WebpackProjectSniappet;
 
 }));
