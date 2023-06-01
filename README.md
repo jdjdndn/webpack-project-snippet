@@ -2,6 +2,10 @@
 
 将项目中所有导出的变量写入 vscode 代码片段，输入变量名会提示变量所在路径
 
+# note
+
+仅开发环境使用
+
 ## Getting Started
 
 To begin, you'll need to install `webpack-project-snippet`:
