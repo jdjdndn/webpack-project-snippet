@@ -1,7 +1,7 @@
 {
   "name": "webpack-project-snippet",
   "version": "1.0.0",
-  "description": "",
+  "description": "项目导出变量片段",
   "main": "dist/index.js",
   "directories": {
     "lib": "lib"
@@ -10,9 +10,18 @@
     "dev": "rollup --config rollup.config.js -w",
     "build": "rollup --config rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "yu cheng",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jdjdndn/webpack-project-snippet.git"
+  },
+  "homepage": "https://github.com/jdjdndn/webpack-project-snippet",
+  "keywords": [
+    "webpack",
+    "vscode",
+    "snippet"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "rollup": "^3.23.0"
   }
