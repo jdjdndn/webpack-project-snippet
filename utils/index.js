@@ -26,9 +26,9 @@ function getRealResource(resource) {
  * @param {*} prefix
  * @returns
  */
-function getChooseList(list, prefix = "") {
+function getChooseList(list, options = {}) {
   let arr = list;
-  if (prefix) {
+  if (options.prefix) {
     arr = list.filter(Boolean).map((it) => {
       if (it.match(/\s+/)) {
         return it;
