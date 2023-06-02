@@ -1,6 +1,6 @@
 {
   "name": "webpack-project-snippet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "项目导出变量片段",
   "main": "dist/index.js",
   "directories": {
