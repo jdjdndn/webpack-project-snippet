@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
     "build": "rollup --config rollup.config.js",
-    "publish": "npm version patch && npm publish"
+    "pub": "npm version patch && npm publish"
   },
   "author": "yu cheng",
   "repository": {
