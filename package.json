@@ -24,9 +24,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^3.23.0"
-  },
-  "dependencies": {
+    "rollup": "^3.23.0",
     "watchpack": "^2.4.0"
-  }
+  },
+  "dependencies": {}
 }
